@@ -1,0 +1,76 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #C5DCD9;
+}
+
+#header {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+#header > div {
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  font-weight: bold;
+  padding: 100px;
+  background: url(https://external-preview.redd.it/ssyKtcTALo2mspZoD8IBkzwO5eOV1_hWMwZ8dwnkXr4.gif?s=1ae2f6eec25eea523f2763e85e499547b2543a6d);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-size: contain;
+  background-size: cover;
+}
+
+#content {
+  margin-top: 1em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#content > .contentCard {
+  border-radius: 50px;
+  background: #EFFEF6;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 1em;
+}
+
+#content > .contentCard > div {
+  padding: 20px;
+}
+
+#content > .contentCard > div > .contentTitle {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#content > .contentCard > div > .instructionDemo {
+  width: 100%;
+}
+
+#content > .contentCard > div > p > .action {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 2px 5px;
+  font-size: 15px;
+}
+
+#footer {
+  margin-top: 1em;
+  text-align: center;
+  font-size: 10px;
+}
+/*# sourceMappingURL=style.css.map */
